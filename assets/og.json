@@ -1,0 +1,44 @@
+{
+ "index": {
+  "title": "The roll that shrank | The SIR Files",
+  "description": "Tamil Nadu struck nearly one elector in six off its rolls before the 2026 election. The cut followed cities, migration and age. Across seats it shows no detectable link with the DMK's strength or with Muslim share, and seats that lost more names lost no more votes than their earlier trend predicts.",
+  "image": "https://kushal-satya.github.io/sir-files/share/og/page-index.png",
+  "url": "https://kushal-satya.github.io/sir-files/"
+ },
+ "seats": {
+  "title": "Eight close seats | The SIR Files",
+  "description": "In a handful of constituencies the deletions were so large relative to the margin that they could have changed the winner. The record shows they might have, in some; it does not show that they did, in any.",
+  "image": "https://kushal-satya.github.io/sir-files/share/og/page-seats.png",
+  "url": "https://kushal-satya.github.io/sir-files/seats.html"
+ },
+ "kolathur": {
+  "title": "Did roll deletions cost the DMK Kolathur? | The SIR Files",
+  "description": "A third of the seat's electors were struck off before the poll. The official record leans against the deletions having decided the result, but it is not sharp enough to rule that out.",
+  "image": "https://kushal-satya.github.io/sir-files/share/og/page-kolathur.png",
+  "url": "https://kushal-satya.github.io/sir-files/kolathur.html"
+ },
+ "results": {
+  "title": "The results desk | The SIR Files",
+  "description": "Twenty findings on Tamil Nadu's roll revision, each with the number, how sure we are of it, and a card you can send on WhatsApp. Three of them carry the story.",
+  "image": "https://kushal-satya.github.io/sir-files/share/og/page-results.png",
+  "url": "https://kushal-satya.github.io/sir-files/results.html"
+ },
+ "method": {
+  "title": "Method and data | The SIR Files",
+  "description": "What each number rests on, what was assumed, and what we chose not to do. The full report and the two-page brief carry the complete results.",
+  "image": "https://kushal-satya.github.io/sir-files/share/og/page-method.png",
+  "url": "https://kushal-satya.github.io/sir-files/method.html"
+ },
+ "report": {
+  "title": "Did the roll revision decide the election? Deletions and votes in Tamil Nadu, 2025-26 | The SIR Files",
+  "description": "Evidence from 234 constituencies, 75,003 polling-station parts, and a seven-election booth panel for Kolathur",
+  "image": "https://kushal-satya.github.io/sir-files/share/og/page-report.png",
+  "url": "https://kushal-satya.github.io/sir-files/report.html"
+ },
+ "brief": {
+  "title": "Did the roll revision decide Tamil Nadu's election? What the data say | The SIR Files",
+  "description": "A two-page brief for journalists and the public",
+  "image": "https://kushal-satya.github.io/sir-files/share/og/page-brief.png",
+  "url": "https://kushal-satya.github.io/sir-files/brief.html"
+ }
+}

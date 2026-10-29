@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="cover">
+<title>Method and data · The SIR Files</title>
+<meta name="description" content="What each number rests on, what was assumed, and what we chose not to do. The full report and the two-page brief carry the complete results.">
+<link rel="canonical" href="https://kushal-satya.github.io/sir-files/method.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="The SIR Files">
+<meta property="og:title" content="Method and data | The SIR Files">
+<meta property="og:description" content="What each number rests on, what was assumed, and what we chose not to do. The full report and the two-page brief carry the complete results.">
+<meta property="og:url" content="https://kushal-satya.github.io/sir-files/method.html">
+<meta property="og:image" content="https://kushal-satya.github.io/sir-files/share/og/page-method.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Method and data | The SIR Files">
+<meta name="twitter:image" content="https://kushal-satya.github.io/sir-files/share/og/page-method.png">
+<meta name="theme-color" content="#faf8f3">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/newsreader-text.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/newsreader-display.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/librefranklin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to the story</a>
+<header class="masthead band"><div class="in">
+  <a class="brand" href="index.html"><b>The SIR Files</b> <span class="brand-tag">Tamil Nadu's 2025-26 roll revision, checked against the vote</span></a>
+  <nav class="sections" aria-label="Sections">
+    <a href="index.html">The state</a>
+    <a href="seats.html">Eight close seats</a>
+    <a href="kolathur.html">Kolathur</a>
+    <a href="results.html">Results desk</a>
+    <a href="method.html" aria-current="page">Method &amp; data</a>
+  </nav>
+</div></header>
+<main id="main" tabindex="-1">
+<div class="band">
+<header class="story col">
+  <p class="fly">How this was done</p>
+  <h1>Method and data</h1>
+  <p class="dek">What each number rests on, what was assumed, and what we chose not to do. The <a href="report.html">full report</a> and the <a href="brief.html">two-page brief</a> carry the complete results.</p>
+</header>
+
+<article class="col methods">
+  <h2>Principles</h2>
+  <p>Every figure on these pages is produced by a script from a public record, and the pages
+    read their numbers from files those scripts write. Nothing is typed in by hand. We publish
+    only aggregates: no voter's name, age, house number or EPIC number appears anywhere, and
+    the claims-and-objections lists were counted, not read for names. A null result is a
+    result. Where a test cannot be run, the page says so rather than substituting a weaker one.</p>
+
+  <h2>Sources</h2>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Record</th><th>Publisher</th><th>Used for</th></tr></thead>
+    <tbody>
+      <tr><td>AC-wise ASD summary, 19 Dec 2025</td><td>CEO Tamil Nadu</td><td>Deletions by reason: dead, shifted or absent, enrolled twice</td></tr>
+      <tr><td>AC-wise gender counts, Jan 2025, Dec 2025, Feb 2026, Apr 2026</td><td>CEO Tamil Nadu</td><td>Roll size at each stage, by sex</td></tr>
+      <tr><td>Constituency results, 2021 and 2026</td><td>ECI (results.eci.gov.in); 2021 via Wayback</td><td>Margins, EVM and postal votes, party shares</td></tr>
+      <tr><td>Assembly elections 2011-2021</td><td>Trivedi Centre for Political Data (TCPD)</td><td>Electors at earlier polls</td></tr>
+      <tr><td>Form 20 booth returns, 2021 and 2026</td><td>CEO Tamil Nadu, via heisenricher (CC0), validated against ECI totals</td><td>Booth-level vote shares and digit tests</td></tr>
+      <tr><td>Claims and objections lists (Forms 9, 10, 11), 2022-2026</td><td>Greater Chennai Corporation</td><td>Counts of annual deletion requests in Chennai</td></tr>
+      <tr><td>Primary Census Abstract, 2011, shrid level</td><td>Census of India via SHRUG (Development Data Lab)</td><td>Urban share, literacy, SC, ST, work participation</td></tr>
+      <tr><td>PCA by religion (RL-3300), Tamil Nadu, 2011</td><td>Census of India</td><td>Hindu, Muslim and Christian shares</td></tr>
+      <tr><td>Constituency boundaries, 2008 delimitation</td><td>DataMeet</td><td>Map</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>Deletion rate</h2>
+  <p>The pre-revision roll is the draft roll plus the deletions at the draft stage, so the rate
+    is deletions divided by that sum. Women's and men's cuts are measured from January 2025 to
+    the draft, the closest gendered pair available; because that span also includes the
+    year's additions, it slightly understates gross deletions.</p>
+
+  <h2>Census figures for constituencies</h2>
+  <p>The Census reports villages, towns and sub-districts, not assembly seats. We aggregate
+    SHRUG's shrid-level abstract to the 2008 constituencies with SHRUG's own key, which weights
+    each fragment of a shrid by its share of population or area. Religion is not in SHRUG. A town
+    shrid takes its town's religion shares from the Census religion table; a rural shrid takes
+    its sub-district's rural shares.</p>
+  <p>The key leaves about a tenth of the state's population unassigned: the big municipal
+    corporations that span several seats, including half of Chennai. We pool that population
+    within each census district and share it among the district's seats in proportion to each
+    seat's shortfall, the gap between its mapped population and what its roll implies at the
+    district's ratio of electors to people. The reconstructed state total is within 0.01 per
+    cent of the Census figure. The cost is that city seats inherit city averages, which hides
+    real differences between, for example, Chennai's Harbour and Mylapore. Every regression is
+    therefore repeated on the seats where under a quarter of the population came this way.</p>
+
+  <h2>Correlates of deletion</h2>
+  <p>The deletion rate is regressed on eight standardised Census characteristics with district
+    fixed effects, so that each seat is compared with others in its district, and standard errors
+    clustered by district. The same specification adds the DMK front's 2021 vote share to test
+    for partisan targeting. These are associations between constituencies. They do not say
+    that a given kind of person was more likely to be deleted.</p>
+
+  <h2>The margin bound</h2>
+  <p>If a share <i>w</i> of a seat's <i>D</i> deletions were wrongful and a share <i>t</i> of those
+    people would have voted, the losing front candidate needs a two-party share <i>p</i> among them
+    large enough that their net votes cover the margin <i>M</i>:</p>
+  <pre>p = ½ × (1 + M / (D × w × t))</pre>
+  <p>The seat pages fix the lean at 60:40 and turnout at 65 per cent, and report the number of
+    wrongful deletions this implies, <code>M / (t × (2p − 1))</code>. Case seats are every seat the
+    front lost as runner-up where <i>p</i> is under 55 per cent at <i>w</i> = 0.5, <i>t</i> = 0.65,
+    plus Kolathur. The rule was fixed before any seat-level evidence was looked at.</p>
+
+  <h2>Forensic checks</h2>
+  <p>On booth returns we run last-digit uniformity tests on the two leading candidates. These are
+    screens, with known false positives in election data (Deckert, Myagkov and Ordeshook 2011),
+    and are read against the number expected by chance across all tests run. On constituency
+    totals we also run the turnout and winner-share diagnostics of Klimek et al. (2012). Namesakes
+    are independents whose names, after initials and titles are removed, match a leading
+    candidate's at a fuzzy-match score of 85 or more.</p>
+
+  <h2>Vetting the part-wise data</h2>
+  <p>Booth-level counts come from the India SIR Data Center (tamilnadu.sir.vote), an independent
+    compilation of the CEO's part-wise lists. We took counts and aggregates only and checked them
+    against official records before using them.</p>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Check</th><th>Result</th><th>Verdict</th></tr></thead>
+    <tbody>
+      <tr><td>Seat totals by reason vs CEO</td><td>202 of 234 exact; 32 short by 4,319 in all (largest 453)</td><td>Usable; small undercounts</td></tr>
+      <tr><td>Internal consistency</td><td>Seat cards equal part sums in 234 seats and the reason pages in 234</td><td>Pass</td></tr>
+      <tr><td>District totals</td><td>Only 10 of 38 match CEO districts; site's Chennai 1,973,840 vs CEO 1,425,018</td><td>Site's own geography; use seat figures</td></tr>
+      <tr><td>Gender</td><td>Women 51.4% of deleted vs 51.0% of Jan 2025 roll; seat counts track CEO falls (r = 0.996)</td><td>Consistent</td></tr>
+      <tr><td>Age</td><td>100.00% of deletions carry an age; median age 69 for the dead, 43 for the shifted; none over 100</td><td>Plausible</td></tr>
+      <tr><td>Part numbering</td><td>Both series run unbroken, with equal counts and matching numbers, in 126 seats</td><td>Booth matching restricted to those 126 seats</td></tr>
+      <tr><td>Name-based religion</td><td>Muslim 2.0% and Christian 0.8% of deleted, against Census-weighted 6.1% and 6.3%</td><td>Do not use</td></tr>
+      <tr><td>Name-based caste category</td><td>Classifies 3.3% of deletions; SC/ST 0.6% of those vs Census SC 19%</td><td>Do not use</td></tr>
+    </tbody>
+  </table></div>
+  <p>The press figure of 3,39,278 duplicates is a transposition: the CEO's seat-level numbers sum
+    to 398,278, and the compilation gives 398,112.</p>
+
+  <h2>What we did not do</h2>
+  <p>The booth-level deletion lists sit behind a CAPTCHA on the CEO's portal, and the ECI's
+    voter services block automated requests. We did not attempt to defeat either. Those lists
+    are being collected by hand by a person typing each CAPTCHA, and until they are complete
+    the booth-level test of whether deletions moved the result cannot be run from official files. We used no
+    third-party mirrors of voter lists of unknown provenance.</p>
+
+  <h2>Reproduce it</h2>
+  <pre>uv sync
+uv run python -m pilot.analysis.ac_level
+uv run python -m pilot.analysis.statewide
+uv run python -m pilot.analysis.atlas
+uv run python -m pilot.analysis.sir_story
+uv run python -m pilot.analysis.cases
+uv run python scripts/build_site_data.py
+uv run python scripts/build_atlas_site.py</pre>
+  <p>Every decision and assumption is logged, numbered, in <code>docs/decisions.md</code>. The <a href="report.html">full written report</a> has every table and test, and there is a <a href="brief.html">two-page brief</a>.</p>
+</article>
+</div>
+</main>
+<div class="band"><footer class="end col">
+  <p>Nonpartisan. An independent analysis of public data, not affiliated with any party or with
+    the Election Commission. Corrections are welcome.</p>
+</footer></div>
+</body>
+</html>
